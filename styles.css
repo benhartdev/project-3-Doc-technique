@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+    #navbar {
+        width: 150%;
+        position: relative;
+        height: auto;
+        box-shadow: none;
+      background-color: pink;
+      color: blue;
+    }
+    #main-doc {
+        margin-left: 0;
+    }
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            line-height: 1.6;
+            display: flex;
+            margin: 0;
+            left:50px;
+            
+            
+           
+        }
+        #navbar {
+            width: 20%;
+            min-width: 200px;
+            max-width: 300px;
+            position: fixed;
+            height: 100%;
+            background-color: #f4f4f4;
+            padding: 1rem;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            background-color: pink;
+        }
+        #main-doc {
+            margin-left: 22%;
+            padding: 2rem;
+            flex-grow: 1;
+        }
+        header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .nav-link {
+            display: block;
+            margin: 0.5rem 0;
+            text-decoration: none;
+            color: #333;
+        }
+        .nav-link:hover {
+            color: #007BFF;
+        }
+        .main-section {
+            margin-bottom: 2rem;
+        }
+        code {
+            background-color: #eee;
+            padding: 0.2rem;
+        }
+        ul {
+            padding-left: 2rem;
+        }
+        @media (max-width: 2000px) {
+            #navbar {
+                width: 100%;
+                position: relative;
+                height: auto;
+                box-shadow: none;
+            }
+            #main-doc {
+                margin-left: 0;
+            }
+        }
+        .img-div {
+        width:20px;
+        margin: 0 auto;
+        background-color: #000;
+        min-height: 100%;
+        position: relative;
+    }
+    .fig1 {
+        position: absolute;
+       left: -25px;
+       scale: 100%;
+   
+       top: 300px;
+    }
+    .fig2 {
+        position: absolute;
+        left: -25px;
+        scale: 100%;
+        top:520px;
+    }
+    .fig3 {
+        position: absolute;
+       left: -25px;
+       scale: 100%;
+   
+       top: 740px;
+    }
+    .fig4 {
+        position: absolute;
+        left: -25px;
+        scale: 100%;
+        top:960px;
+    }
+    .fig5 {
+        position: absolute;
+       left: -25px;
+       scale: 100%;
+   
+       top: 1180px;
+    }
+    .fig6 {
+        position: absolute;
+        left: -25px;
+        scale: 100%;
+        top:1400px;
+    }
+    .fig7 {
+        position: absolute;
+       left: -25px;
+       scale: 100%;
+   
+       top: 1620px;
+    }
+    
